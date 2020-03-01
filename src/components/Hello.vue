@@ -19,7 +19,7 @@ export default {
       toDoItems: [] // 빈 리스트로 초기화
     }
   },
-  created() {
+  created () {
     // 초기화 함수
     axios
       .get('http://127.0.0.1:5000/todo/') // http://localhost:5000/todo/에 get call
